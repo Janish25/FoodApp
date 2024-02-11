@@ -15,7 +15,7 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors());
-mongoose.connect('mongodb://127.0.0.1:27017/FoodApp', {
+mongoose.connect('mongodb+srv://yuvaraj0313:nlPvjLZbt8gY42OX@cartyy.mpvbcai.mongodb.net/' {
   useNewUrlParser: true,
   useCreateIndex: true,
   useUnifiedTopology: true,
